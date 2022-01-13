@@ -10,9 +10,13 @@
     
     <div id="container">
         <h1>{{messaggio}}</h1>
-        <img src={{immagine}}>
+        <img :src="immagine">
+        <div>
+            <button @click="compra">Rinuncia a un rene</button>
+        </div>
     </div>
 
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="data.js"></script>
 </body>
